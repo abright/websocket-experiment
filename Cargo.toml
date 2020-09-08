@@ -1,0 +1,9 @@
+[package]
+name = "websocket"
+description = "a small test app to experiment with websockets using tungstenite crate"
+version = "0.1.0"
+authors = ["Andy Bright <abright@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+tungstenite = { version = "0.11.1" }
